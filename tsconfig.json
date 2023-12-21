@@ -19,6 +19,5 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/count.ksx"],
-  "exclude": ["node_modules"],
-  "jsxImportSource": "@emotion/react"
+  "exclude": ["node_modules"]
 }
