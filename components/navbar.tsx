@@ -24,7 +24,7 @@ export const Navbar = () => {
     <NextUINavbar
       maxWidth="xl"
       position="sticky"
-      className="fixed top-0 right-0 left-0 bg-def z-50"
+      className="fixed top-0 right-0 left-0 bg-def z-50 px-20 py-3 "
     >
       {/* logo area */}
       <NavbarBrand className="gap-3 max-w-fit">
@@ -39,7 +39,7 @@ export const Navbar = () => {
             <NavbarItem key={item.href}>
               <NextLink
                 className={clsx(
-                  "data-[active=true]:text-primary data-[active=true]:font-medium"
+                  "data-[active=true]:text-primary text-lg  data-[active=true]:font-medium"
                 )}
                 color="foreground"
                 href={item.href}
