@@ -1,0 +1,627 @@
+[
+ {
+  "path": "Bakery\/RB 5.jpg",
+  "name": "RB 5",
+  "category": "Bakery"
+ },
+ {
+  "path": "Bakery\/RB 6.jpg",
+  "name": "RB 6",
+  "category": "Bakery"
+ },
+ {
+  "path": "Bakery\/RB 7.jpg",
+  "name": "RB 7",
+  "category": "Bakery"
+ },
+ {
+  "path": "Bakery\/RB 8.jpg",
+  "name": "RB 8",
+  "category": "Bakery"
+ },
+ {
+  "path": "Bakery\/RB 9.jpg",
+  "name": "RB 9",
+  "category": "Bakery"
+ },
+ {
+  "path": "Cold Equipment\/BC3GD.jpg",
+  "name": "BC3GD",
+  "category": "Cold Equipment"
+ },
+ {
+  "path": "Cold Equipment\/CH 1870 DDD (70).jpg",
+  "name": "CH 1870 DDD (70)",
+  "category": "Cold Equipment"
+ },
+ {
+  "path": "Cold Equipment\/CL 1870-222 (70).jpg",
+  "name": "CL 1870-222 (70)",
+  "category": "Cold Equipment"
+ },
+ {
+  "path": "Cold Equipment\/DL PP 900.jpg",
+  "name": "DL PP 900",
+  "category": "Cold Equipment"
+ },
+ {
+  "path": "Cold Equipment\/G F 600.jpg",
+  "name": "G F 600",
+  "category": "Cold Equipment"
+ },
+ {
+  "path": "Cold Equipment\/MP 1050 D (70) PP.jpg",
+  "name": "MP 1050 D (70) PP",
+  "category": "Cold Equipment"
+ },
+ {
+  "path": "Cold Equipment\/MP 1870 DD-3(80) NC.jpg",
+  "name": "MP 1870 DD-3(80) NC",
+  "category": "Cold Equipment"
+ },
+ {
+  "path": "Cold Equipment\/RFD-900.jpg",
+  "name": "RFD-900",
+  "category": "Cold Equipment"
+ },
+ {
+  "path": "Cold Equipment\/RH1-2D-RL1-2D.jpg",
+  "name": "RH1-2D-RL1-2D",
+  "category": "Cold Equipment"
+ },
+ {
+  "path": "Cold Equipment\/RH2-4D-RL2-4D.jpg",
+  "name": "RH2-4D-RL2-4D",
+  "category": "Cold Equipment"
+ },
+ {
+  "path": "Cooking\/RBC 3.jpg",
+  "name": "RBC 3",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RBC1.jpg",
+  "name": "RBC1",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RBC4A.jpg",
+  "name": "RBC4A",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RBC4B.jpg",
+  "name": "RBC4B",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC1.jpg",
+  "name": "RC1",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC10.jpg",
+  "name": "RC10",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC11.jpg",
+  "name": "RC11",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC12.jpg",
+  "name": "RC12",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC13.jpg",
+  "name": "RC13",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC14.jpg",
+  "name": "RC14",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC15.jpg",
+  "name": "RC15",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC16-1.jpg",
+  "name": "RC16-1",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC16.jpg",
+  "name": "RC16",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC17.jpg",
+  "name": "RC17",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC18.jpg",
+  "name": "RC18",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC19.jpg",
+  "name": "RC19",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC2.jpg",
+  "name": "RC2",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC20.jpg",
+  "name": "RC20",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC21.jpg",
+  "name": "RC21",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC22.jpg",
+  "name": "RC22",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC3.jpg",
+  "name": "RC3",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC4.jpg",
+  "name": "RC4",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC5.jpg",
+  "name": "RC5",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC6.jpg",
+  "name": "RC6",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC7.jpg",
+  "name": "RC7",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC8.jpg",
+  "name": "RC8",
+  "category": "Cooking"
+ },
+ {
+  "path": "Cooking\/RC9.jpg",
+  "name": "RC9",
+  "category": "Cooking"
+ },
+ {
+  "path": "Grate Inox\/1.jpg",
+  "name": "1",
+  "category": "Grate Inox"
+ },
+ {
+  "path": "Grate Inox\/GIG 3030.jpg",
+  "name": "GIG 3030",
+  "category": "Grate Inox"
+ },
+ {
+  "path": "Grate Inox\/GIG 5030.jpg",
+  "name": "GIG 5030",
+  "category": "Grate Inox"
+ },
+ {
+  "path": "Grate Inox\/GIG 5050.jpg",
+  "name": "GIG 5050",
+  "category": "Grate Inox"
+ },
+ {
+  "path": "Hygiene\/1.jpg",
+  "name": "1",
+  "category": "Hygiene"
+ },
+ {
+  "path": "Hygiene\/2.jpg",
+  "name": "2",
+  "category": "Hygiene"
+ },
+ {
+  "path": "Hygiene\/3.jpg",
+  "name": "3",
+  "category": "Hygiene"
+ },
+ {
+  "path": "Iceden\/BB2GD.jpg",
+  "name": "BB2GD",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/BB3GD.jpg",
+  "name": "BB3GD",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/BC3GD.jpg",
+  "name": "BC3GD",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/CH1390DD(70).jpg",
+  "name": "CH1390DD(70)",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/CH1870DDD(70).jpg",
+  "name": "CH1870DDD(70)",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/CL1870-222(70).jpg",
+  "name": "CL1870-222(70)",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/G F600.jpg",
+  "name": "G F600",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/JCD - 2D-GOLD.jpg",
+  "name": "JCD - 2D-GOLD",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/JCD-1D-GOLD.jpg",
+  "name": "JCD-1D-GOLD",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/JCD-2D-GOLD1.jpg",
+  "name": "JCD-2D-GOLD1",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/MP 1050D(70) PP.jpg",
+  "name": "MP 1050D(70) PP",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/MP 1870DD-3(80) NC.jpg",
+  "name": "MP 1870DD-3(80) NC",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/RCD - 1200.jpg",
+  "name": "RCD - 1200",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/RFD - 900.jpg",
+  "name": "RFD - 900",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/RH1-2D.jpg",
+  "name": "RH1-2D",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/RH2-4D.jpg",
+  "name": "RH2-4D",
+  "category": "Iceden"
+ },
+ {
+  "path": "Iceden\/RL 1-2D.jpg",
+  "name": "RL 1-2D",
+  "category": "Iceden"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 10.jpg",
+  "name": "RPF 10",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 11A & RPF 11B.jpg",
+  "name": "RPF 11A & RPF 11B",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 12.jpg",
+  "name": "RPF 12",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 13.jpg",
+  "name": "RPF 13",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 14.jpg",
+  "name": "RPF 14",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 15.jpg",
+  "name": "RPF 15",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 16.jpg",
+  "name": "RPF 16",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 1A.jpg",
+  "name": "RPF 1A",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 1B.jpg",
+  "name": "RPF 1B",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 2.jpg",
+  "name": "RPF 2",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 3 A.jpg",
+  "name": "RPF 3 A",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 3B.jpg",
+  "name": "RPF 3B",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 4.jpg",
+  "name": "RPF 4",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 5.jpg",
+  "name": "RPF 5",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 6.jpg",
+  "name": "RPF 6",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 7.jpg",
+  "name": "RPF 7",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 8.jpg",
+  "name": "RPF 8",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF 9.jpg",
+  "name": "RPF 9",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Pantry & Fast Food\/RPF B.jpg",
+  "name": "RPF B",
+  "category": "Pantry & Fast Food"
+ },
+ {
+  "path": "Preparation\/RP 1.jpg",
+  "name": "RP 1",
+  "category": "Preparation"
+ },
+ {
+  "path": "Preparation\/RP 10.jpg",
+  "name": "RP 10",
+  "category": "Preparation"
+ },
+ {
+  "path": "Preparation\/RP 11.jpg",
+  "name": "RP 11",
+  "category": "Preparation"
+ },
+ {
+  "path": "Preparation\/RP 2.jpg",
+  "name": "RP 2",
+  "category": "Preparation"
+ },
+ {
+  "path": "Preparation\/RP 3.jpg",
+  "name": "RP 3",
+  "category": "Preparation"
+ },
+ {
+  "path": "Preparation\/RP 4.jpg",
+  "name": "RP 4",
+  "category": "Preparation"
+ },
+ {
+  "path": "Preparation\/RP 5.jpg",
+  "name": "RP 5",
+  "category": "Preparation"
+ },
+ {
+  "path": "Preparation\/RP 6.jpg",
+  "name": "RP 6",
+  "category": "Preparation"
+ },
+ {
+  "path": "Preparation\/RP 7.jpg",
+  "name": "RP 7",
+  "category": "Preparation"
+ },
+ {
+  "path": "Preparation\/RP 8.jpg",
+  "name": "RP 8",
+  "category": "Preparation"
+ },
+ {
+  "path": "Preparation\/RP 9.jpg",
+  "name": "RP 9",
+  "category": "Preparation"
+ },
+ {
+  "path": "Service\/RS 10.jpg",
+  "name": "RS 10",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS BDD.jpg",
+  "name": "RS BDD",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS CP C 1271.jpg",
+  "name": "RS CP C 1271",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS FT 1271.jpg",
+  "name": "RS FT 1271",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS IBD.jpg",
+  "name": "RS IBD",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS RPW.jpg",
+  "name": "RS RPW",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS RPWD.jpg",
+  "name": "RS RPWD",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS TDD.jpg",
+  "name": "RS TDD",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS1.jpg",
+  "name": "RS1",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS2.jpg",
+  "name": "RS2",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS3.jpg",
+  "name": "RS3",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS4.jpg",
+  "name": "RS4",
+  "category": "Service"
+ },
+ {
+  "path": "Service\/RS6.jpg",
+  "name": "RS6",
+  "category": "Service"
+ },
+ {
+  "path": "Ultimate\/Cold Food Cart.jpg",
+  "name": "Cold Food Cart",
+  "category": "Ultimate"
+ },
+ {
+  "path": "Ultimate\/Electric Gas Steamer.jpg",
+  "name": "Electric Gas Steamer",
+  "category": "Ultimate"
+ },
+ {
+  "path": "Ultimate\/Holding and Proofing Cabinet.jpg",
+  "name": "Holding and Proofing Cabinet",
+  "category": "Ultimate"
+ },
+ {
+  "path": "Ultimate\/Knife Sterilizer 1.jpg",
+  "name": "Knife Sterilizer 1",
+  "category": "Ultimate"
+ },
+ {
+  "path": "Ultimate\/Knife Sterilizer 2.jpg",
+  "name": "Knife Sterilizer 2",
+  "category": "Ultimate"
+ },
+ {
+  "path": "Ultimate\/Modular Deck Ovens.jpg",
+  "name": "Modular Deck Ovens",
+  "category": "Ultimate"
+ },
+ {
+  "path": "Ultimate\/MULTI PURPOSE COUNTER TOP OVENS.jpg",
+  "name": "MULTI PURPOSE COUNTER TOP OVENS",
+  "category": "Ultimate"
+ },
+ {
+  "path": "Ultimate\/Pastry, cake Display Cabinet.jpg",
+  "name": "Pastry, cake Display Cabinet",
+  "category": "Ultimate"
+ },
+ {
+  "path": "Wash Up\/RW 1.jpg",
+  "name": "RW 1",
+  "category": "Wash Up"
+ },
+ {
+  "path": "Wash Up\/RW 2.jpg",
+  "name": "RW 2",
+  "category": "Wash Up"
+ },
+ {
+  "path": "Wash Up\/RW 3.jpg",
+  "name": "RW 3",
+  "category": "Wash Up"
+ },
+ {
+  "path": "Wash Up\/RW 4.jpg",
+  "name": "RW 4",
+  "category": "Wash Up"
+ },
+ {
+  "path": "Wash Up\/RW 5.jpg",
+  "name": "RW 5",
+  "category": "Wash Up"
+ },
+ {
+  "path": "Wash Up\/RW 6.jpg",
+  "name": "RW 6",
+  "category": "Wash Up"
+ },
+ {
+  "path": "Wash Up\/RW 7.jpg",
+  "name": "RW 7",
+  "category": "Wash Up"
+ },
+ {
+  "path": "Wash Up\/RW 8.jpg",
+  "name": "RW 8",
+  "category": "Wash Up"
+ }
+]
