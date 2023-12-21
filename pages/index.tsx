@@ -6,6 +6,7 @@ import DefaultLayout from "@/layouts/default";
 import CountUp from "react-countup";
 import { Stats } from "fs";
 import CountCard from "../components/count";
+import WhyUsCard from "../components/whyUsCard";
 import { Card, CardBody, CardHeader } from "@nextui-org/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -33,6 +34,18 @@ export default function IndexPage() {
     },
   ];
 
+  const whyUsData = [
+    {
+      bgColor: "bg-blue-100",
+      image: "like.png",
+      heading: "Quality",
+      desc: " Lorem ipsum dolor sit ame sit amet consectetur , nostrum minus perferendis consequatur possimus et rerum iure explicabo a. Molestiae consequuntur, incidunt alias et eum sapiente ",
+    },
+  ];
+
+  const whyuscomponents = whyUsData.map((data, index) => {
+    return <WhyUsCard props={data} key={index} />;
+  });
   const stats = statsData.map((data, index) => {
     return <CountCard props={data} key={index} />;
   });
@@ -130,116 +143,7 @@ export default function IndexPage() {
                   </p>
                 </CardBody>
               </Card>
-              <Card className="py-4 bg-yellow-100">
-                <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-                  <Image
-                    alt="Card background"
-                    className="object-cover rounded-xl mr-auto ml-auto"
-                    src="/images/like.png"
-                    width={100}
-                    height={100}
-                  />
-                </CardHeader>
-                <CardBody className="overflow-visible py-2">
-                  <h1 className="text-center text-4xl font-semibold">
-                    Quality
-                  </h1>
-                  <p className="text-base py-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis recusandae unde beatae quam, distinctio inventore
-                    dolorem, tenetur sequi hic cupiditate ad nemo ut quaerat. At
-                    cum quidem recusandae molestias asperiores.
-                  </p>
-                </CardBody>
-              </Card>
-              <Card className="py-4 bg-green-100">
-                <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-                  <Image
-                    alt="Card background"
-                    className="object-cover rounded-xl mr-auto ml-auto"
-                    src="/images/like.png"
-                    width={100}
-                    height={100}
-                  />
-                </CardHeader>
-                <CardBody className="overflow-visible py-2">
-                  <h1 className="text-center text-4xl font-semibold">
-                    Quality
-                  </h1>
-                  <p className="text-base py-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis recusandae unde beatae quam, distinctio inventore
-                    dolorem, tenetur sequi hic cupiditate ad nemo ut quaerat. At
-                    cum quidem recusandae molestias asperiores.
-                  </p>
-                </CardBody>
-              </Card>
-              <Card className="py-4 bg-blue-100">
-                <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-                  <Image
-                    alt="Card background"
-                    className="object-cover rounded-xl mr-auto ml-auto"
-                    src="/images/like.png"
-                    width={100}
-                    height={100}
-                  />
-                </CardHeader>
-                <CardBody className="overflow-visible py-2">
-                  <h1 className="text-center text-4xl font-semibold">
-                    Quality
-                  </h1>
-                  <p className="text-base py-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis recusandae unde beatae quam, distinctio inventore
-                    dolorem, tenetur sequi hic cupiditate ad nemo ut quaerat. At
-                    cum quidem recusandae molestias asperiores.
-                  </p>
-                </CardBody>
-              </Card>
-              <Card className="py-4 bg-yellow-100">
-                <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-                  <Image
-                    alt="Card background"
-                    className="object-cover rounded-xl mr-auto ml-auto"
-                    src="/images/like.png"
-                    width={100}
-                    height={100}
-                  />
-                </CardHeader>
-                <CardBody className="overflow-visible py-2">
-                  <h1 className="text-center text-4xl font-semibold">
-                    Quality
-                  </h1>
-                  <p className="text-base py-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis recusandae unde beatae quam, distinctio inventore
-                    dolorem, tenetur sequi hic cupiditate ad nemo ut quaerat. At
-                    cum quidem recusandae molestias asperiores.
-                  </p>
-                </CardBody>
-              </Card>
-              <Card className="py-4 bg-green-100">
-                <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-                  <Image
-                    alt="Card background"
-                    className="object-cover rounded-xl mr-auto ml-auto"
-                    src="/images/like.png"
-                    width={100}
-                    height={100}
-                  />
-                </CardHeader>
-                <CardBody className="overflow-visible py-2">
-                  <h1 className="text-center text-4xl font-semibold">
-                    Quality
-                  </h1>
-                  <p className="text-base py-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis recusandae unde beatae quam, distinctio inventore
-                    dolorem, tenetur sequi hic cupiditate ad nemo ut quaerat. At
-                    cum quidem recusandae molestias asperiores.
-                  </p>
-                </CardBody>
-              </Card>
+              {whyuscomponents}
             </div>
           </div>
         </div>

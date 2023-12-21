@@ -19,14 +19,12 @@ import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
 import clsx from "clsx";
 
-
-
 export const Navbar = () => {
   return (
     <NextUINavbar
       maxWidth="xl"
       position="sticky"
-      className="fixed top-0 right-0 left-0 bg-def"
+      className="fixed top-0 right-0 left-0 bg-def z-50"
     >
       {/* logo area */}
       <NavbarBrand className="gap-3 max-w-fit">
