@@ -13,7 +13,7 @@ import {
   Image,
 } from "@nextui-org/react";
 
-import { link as linkStyles } from "@nextui-org/theme";
+// import { link as linkStyles } from "@nextui-org/theme";
 
 import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
@@ -50,7 +50,6 @@ export const Navbar = () => {
             <NavbarItem key={item.href}>
               <NextLink
                 className={clsx(
-                  linkStyles({ color: "foreground" }),
                   "data-[active=true]:text-primary data-[active=true]:font-medium"
                 )}
                 color="foreground"
