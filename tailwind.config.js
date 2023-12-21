@@ -23,3 +23,5 @@ module.exports = {
   darkMode: "class",
   plugins: [nextui()],
 };
+
+export default config;
