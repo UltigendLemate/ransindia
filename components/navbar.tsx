@@ -24,7 +24,7 @@ export const Navbar = () => {
     <NextUINavbar
       maxWidth="xl"
       position="sticky"
-      className="fixed top-0 right-0 left-0 bg-def z-50 px-20 py-3 "
+      className="fixed top-0 right-0 left-0 bg-def z-50 px-20 py-3 flex justify-between"
     >
       {/* logo area */}
       <NavbarBrand className="gap-3 max-w-fit">
