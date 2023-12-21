@@ -31,8 +31,6 @@ import {
 import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
-
-
   return (
     <NextUINavbar
       maxWidth="xl"

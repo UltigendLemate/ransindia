@@ -10,15 +10,27 @@ export const siteConfig = {
     },
     {
       label: "About Us",
-      href: "/docs",
+      href: "/#about",
     },
     {
-      label: "Products",
-      href: "/pricing",
+      label: "Rans",
+      href: "/rans",
+    },
+    {
+      label: "Grate-Inox",
+      href: "/grate-inox",
+    },
+    {
+      label: "Iceden",
+      href: "/iceden",
+    },
+    {
+      label: "Ultimate",
+      href: "/ultimate",
     },
     {
       label: "Contact Us",
-      href: "/blog",
+      href: "/#contact",
     },
   ],
   navMenuItems: [
@@ -28,15 +40,27 @@ export const siteConfig = {
     },
     {
       label: "About Us",
-      href: "/docs",
+      href: "/#about",
     },
     {
-      label: "Products",
-      href: "/pricing",
+      label: "Rans",
+      href: "/rans",
+    },
+    {
+      label: "Grate-Inox",
+      href: "/grate-inox",
+    },
+    {
+      label: "Iceden",
+      href: "/iceden",
+    },
+    {
+      label: "Ultimate",
+      href: "/ultimate",
     },
     {
       label: "Contact Us",
-      href: "/blog",
+      href: "/#contact",
     },
   ],
   links: {

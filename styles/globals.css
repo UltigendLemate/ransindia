@@ -1,7 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 *{
     @apply bg-def;
+} */
+
+* {
+  scroll-padding: 40px;
+  scroll-behavior: smooth;
 }

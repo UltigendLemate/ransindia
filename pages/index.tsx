@@ -38,9 +38,9 @@ export default function IndexPage() {
   });
   return (
     <DefaultLayout>
-      <section className="">
+      <section className="font-poppins">
         {/* hero section  */}
-        <div className="h-[50vh] md:h-full  text-white relative ">
+        <div className="h-[50vh] md:h-[100vh]  text-white relative ">
           <Image
             src={"/images/hero.jpg"}
             height={1080}
@@ -65,7 +65,7 @@ export default function IndexPage() {
         </div>
 
         {/* about us */}
-        <div className="w-full py-10 lg:py-16 lg:px-0 md:px-8 px-5">
+        <div className="w-full py-10 lg:py-16 lg:px-0 md:px-8 px-5" id="about">
           <div className="max-w-screen-lg ml-auto mr-auto">
             <h1 className="text-5xl font-semibold text-left">About RANS</h1>
             <div className="grid md:grid-cols-2 grid-cols-1 md:gap-8 gap-3">
@@ -331,7 +331,10 @@ export default function IndexPage() {
         </div>
 
         {/* contact us */}
-        <div className="w-full py-10 lg:py-16 lg:px-0 md:px-8 px-5 bg-blue-100 ">
+        <div
+          className="w-full py-10 lg:py-16 lg:px-0 md:px-8 px-5 bg-blue-100 "
+          id="contact"
+        >
           <div className="lg:max-w-screen-lg ml-auto mr-auto  ">
             <h1 className="text-5xl font-semibold text-left pb-10">
               Contact Us
