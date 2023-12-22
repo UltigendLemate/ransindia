@@ -34,7 +34,7 @@ const Rans = (props: Props) => {
                     height={60}
                     width={200}
                     alt="rans"
-                    className="ml-auto mr-auto md:mb-3 scale-75 md:scale-100 bg-white rounded-sm"
+                    className="ml-auto mr-auto md:mb-3 scale-75 md:scale-100 bg-blend-overlay rounded-sm"
                   />
                 </div>
                 <h1>The Premium</h1> <h1>Foodservice Equipments</h1>
