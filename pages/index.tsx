@@ -106,7 +106,9 @@ export default function IndexPage() {
         {/* about us */}
         <div className="w-full py-10 lg:py-16 lg:px-0 md:px-8 px-5" id="about">
           <div className="max-w-screen-lg ml-auto mr-auto">
-            <h1 className="text-5xl font-semibold text-left">About RANS</h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-left">
+              About RANS
+            </h1>
             <div className="grid md:grid-cols-2 grid-cols-1 md:gap-8 gap-3">
               <div>
                 <h3 className="pt-5 pb-2 text-lg">
@@ -144,7 +146,7 @@ export default function IndexPage() {
         {/* why rans */}
         <div className="w-full pt-10 md:py-10 lg:py-16 lg:px-0 md:px-8 px-5">
           <div className="max-w-screen-lg ml-auto mr-auto">
-            <h1 className="text-5xl font-semibold text-left pb-10 md:pb-16">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-left pb-10 md:pb-16">
               Why RANS?
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -156,7 +158,7 @@ export default function IndexPage() {
         {/* our clients */}
         <div className="w-full  pt-20 pb-20 md:py-10 lg:py-16 lg:px-0 md:px-8 px-5">
           <div className="max-w-screen-lg ml-auto mr-auto ">
-            <h1 className="text-5xl font-semibold text-left pb-16 md:pb-10 ">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-left pb-16 md:pb-10 ">
               Our Clients
             </h1>
             <Image
@@ -182,7 +184,7 @@ export default function IndexPage() {
           id="contact"
         >
           <div className="lg:max-w-screen-lg ml-auto mr-auto  ">
-            <h1 className="text-5xl font-semibold text-left pb-10">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-left pb-10">
               Contact Us
             </h1>
             <div className="grid md:grid-cols-2 gap-10">
