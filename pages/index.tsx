@@ -119,9 +119,9 @@ export default function IndexPage() {
                 <h3 className="pb-5 pt-2 text-lg">
                   RANS Technocrats caters to customers throughout India with a
                   dedicated team that provides service and support. The
-                  company's state-of-the-art machinery and commitment to quality
-                  have enabled it to deliver equipment that meets international
-                  standards.
+                  company&apos;s state-of-the-art machinery and commitment to
+                  quality have enabled it to deliver equipment that meets
+                  international standards.
                 </h3>
               </div>
               <div>
