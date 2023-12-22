@@ -33,7 +33,7 @@ const GrateInox = (props: Props) => {
         {/* <div className='bg-white aspect-square border-2 border-black '> */}
         {/* filter data for category = Bakery and then display image for all  */}
         <div className="max-w-screen-xl ml-auto mr-auto">
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 items-center  gap-5 px-5 my-10">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  grid-cols-2 items-center  gap-5 px-5 my-10">
             {data
               .filter((item) => item.category === "Grate Inox")
               .map((item) => (

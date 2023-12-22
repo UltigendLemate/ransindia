@@ -13,7 +13,7 @@ export default function DefaultLayout({
       <Head />
       <Navbar />
       <main className="container mx-auto max-w-7xl  flex-grow">{children}</main>
-      <footer className="w-full flex items-center justify-center h-[30px]">
+      <footer className="w-full flex items-center justify-center h-[40px] py-2">
         <div className="flex space-x-2 items-center">
           <span className="text-lg mr-2">&#169;</span>
           <p>Copyright Rans-India | All rights reserved</p>

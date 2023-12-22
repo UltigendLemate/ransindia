@@ -3,6 +3,7 @@ import React from "react";
 import data from "@/public/rans/image_data.json";
 import { Image, Select, SelectItem } from "@nextui-org/react";
 import { useState } from "react";
+import { Skeleton } from "@nextui-org/react";
 
 type Props = {};
 
@@ -86,7 +87,7 @@ const Rans = (props: Props) => {
           </div>
           {/* <div className='bg-white aspect-square border-2 border-black '> */}
           {/* filter data for category = Bakery and then display image for all  */}
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 items-center  gap-5 px-5">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  grid-cols-2 items-center  gap-5 px-5">
             {data
               .filter((item) => item.category === selected)
               .map((item) => (
@@ -96,8 +97,10 @@ const Rans = (props: Props) => {
                 >
                   <div className="flex justify-center">
                     <Image
+                      loading="lazy"
+                      disableSkeleton={true}
                       width={300}
-                      className="aspect-square  object-contain bg-white w-full ml-auto mr-auto"
+                      className="aspect-square  object-contai w-full ml-auto mr-auto"
                       src={`/rans/${item.path}`}
                       alt={item.name}
                     />

@@ -22,7 +22,7 @@ const Iceden = (props: Props) => {
                     height={60}
                     width={200}
                     alt="rans"
-                    className="ml-auto mr-auto md:mb-3 scale-75 md:scale-100 bg-white rounded-sm"
+                    className="ml-auto mr-auto md:mb-3 scale-75 md:scale-100  rounded-sm"
                   />
                 </div>
                 <h1>A New Generation of</h1> <h1>Cold Equipments</h1>
@@ -35,7 +35,7 @@ const Iceden = (props: Props) => {
 
         {/* filter data for category = Bakery and then display image for all  */}
         <div className="max-w-screen-xl ml-auto mr-auto">
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 items-center  gap-5 px-5 my-10">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  grid-cols-2 items-center  gap-5 px-5 my-10">
             {data
               .filter((item) => item.category === "Iceden")
               .map((item) => (

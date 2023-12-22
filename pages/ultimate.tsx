@@ -21,7 +21,7 @@ const Ultimate = (props: Props) => {
                     height={60}
                     width={200}
                     alt="rans"
-                    className="ml-auto mr-auto md:mb-3 scale-75 md:scale-100 bg-white rounded-sm p-1"
+                    className="ml-auto mr-auto md:mb-3 scale-75 md:scale-100  rounded-sm p-1"
                   />
                 </div>
                 <h1>Your Ultimate</h1> <h1>Baking Solution</h1>
@@ -32,7 +32,7 @@ const Ultimate = (props: Props) => {
         {/* <div className='bg-white aspect-square border-2 border-black '> */}
         {/* filter data for category = Bakery and then display image for all  */}
         <div className="max-w-screen-xl ml-auto mr-auto">
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 items-center  gap-5 px-5 my-10">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  grid-cols-2 items-center  gap-5 px-5 my-10">
             {data
               .filter((item) => item.category === "Ultimate")
               .map((item) => (
