@@ -24,50 +24,48 @@ export const Navbar = () => {
     <NextUINavbar
       maxWidth="xl"
       position="sticky"
-      className="fixed top-0 right-0 left-0 bg-def z-50 px-20 py-3 flex justify-between"
+      className="fixed top-0 right-0 left-0 bg-def z-50  py-3"
     >
       {/* logo area */}
-      <div>
-        <NavbarBrand className="gap-3 max-w-fit">
-          <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Image src="/images/logo.png" height={120} width={120} alt="logo" />
-          </NextLink>
-        </NavbarBrand>
-      </div>
-      <div>
-        <NavbarContent className="basis-1/5 sm:basis-full" justify="end">
-          {/* nav items */}
-          <div className="hidden md:flex gap-4 justify-start ml-2">
-            {siteConfig.navItems.map((item) => (
-              <NavbarItem key={item.href}>
-                <NextLink
-                  className={clsx(
-                    "data-[active=true]:text-primary text-lg  data-[active=true]:font-medium"
-                  )}
-                  color="foreground"
-                  href={item.href}
-                >
-                  {item.label}
-                </NextLink>
-              </NavbarItem>
-            ))}
-          </div>
-        </NavbarContent>
-      </div>
+
+      <NavbarBrand className="gap-3 max-w-fit">
+        <NextLink className="flex justify-start items-center gap-1" href="/">
+          <Image src="/images/logo.png" height={120} width={120} alt="logo" />
+        </NextLink>
+      </NavbarBrand>
+
+      <NavbarContent className="basis-1/5 sm:basis-full" justify="end">
+        {/* nav items */}
+        <div className="hidden md:flex gap-8 justify-start ml-2">
+          {siteConfig.navItems.map((item) => (
+            <NavbarItem key={item.href}>
+              <NextLink
+                className={clsx(
+                  "data-[active=true]:text-primary text-lg  data-[active=true]:font-medium hover:text-red-500 font-semibold duration-250"
+                )}
+                color="foreground"
+                href={item.href}
+              >
+                {item.label}
+              </NextLink>
+            </NavbarItem>
+          ))}
+        </div>
+      </NavbarContent>
 
       {/* mobile view */}
-      <NavbarContent className="md:hidden basis-1 pl-4" justify="end">
+      <NavbarContent className="md:hidden basis-1 pl-4 z-50" justify="end">
         <NavbarMenuToggle />
       </NavbarContent>
       <NavbarMenu>
-        <div className="mt-2 flex flex-col justify-center ml-auto mr-auto text-center gap-2">
+        <div className="mt-5 flex flex-col justify-center ml-auto mr-auto text-center gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
-            <NavbarMenuItem key={`${item}-${index}`} className="bg-white/90 ">
+            <NavbarMenuItem key={`${item}-${index}`} className=" ">
               <Link
                 color={"foreground"}
-                href="#"
+                href={item.href}
                 size="lg"
-                className="bg-white/90"
+                className="text-xl py-1"
               >
                 {item.label}
               </Link>

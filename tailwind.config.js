@@ -10,6 +10,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "main-hero": "url('/images/hero.jpg')",
+        "rans-hero": "url('/images/ranshero.jpg')",
+        "grate-hero": "url('/images/grateinoxhero.jpeg')",
+        "iceden-hero": "url('/images/icedenhero.jpg')",
+        "ultimate-hero": "url('/images/ultimatehero.jpg')",
+      },
       colors: {
         def: "#FAF9F6",
       },

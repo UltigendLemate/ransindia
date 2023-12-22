@@ -12,26 +12,21 @@ const Iceden = (props: Props) => {
     <DefaultLayout>
       {/* <div>this is test</div> */}
       <section className="">
-        <div className="h-[50vh] md:h-full  text-white relative ">
-          <Image
-            src={"/images/hero.jpg"}
-            height={1080}
-            width={1920}
-            alt="hero"
-            className="w-full object-cover max-h-screen h-[50vh] md:h-full"
-          />
-          <div className="h-full w-full bg-black/50 absolute z-10 top-0 left-0 right-0 bottom-0 ">
-            <div className="absolute lg:left-[10%] lg:bottom-[20%] md:left-[8%] md:bottom-[10%] left-[5%] bottom-[10%] text-white leading-[29px] md:leading-none lg:text-6xl md:text-5xl text-4xl font-semibold space-y-5">
-              <h1>Life in the Kitchen</h1> <h1>Just Got Easier</h1>
-            </div>
-            <div className="absolute lg:right-[10%] lg:bottom-[23%] lg:scale-150 md:scale-125 hidden md:block overflow-hidden">
-              <Image
-                src="/images/logo.png"
-                height={120}
-                width={120}
-                alt="rans"
-                className="bg-white overflow-hidden"
-              />
+        <div className="h-[50vh] md:h-[100vh]  text-white relative bg-iceden-hero bg-center bg-no-repeat bg-cover">
+          <div className="h-full w-full bg-black/50 absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
+            <div className="text-center text-white leading-[35px] md:leading-none lg:text-6xl md:text-5xl text-4xl font-semibold space-y-5">
+              <div className="pt-[15vh] md:pt-[30vh]">
+                <div className="flex justify-center">
+                  <Image
+                    src={"/images/iceden.png"}
+                    height={60}
+                    width={200}
+                    alt="rans"
+                    className="ml-auto mr-auto md:mb-3 scale-75 md:scale-100 bg-white rounded-sm"
+                  />
+                </div>
+                <h1>A New Generation of</h1> <h1>Cold Equipments</h1>
+              </div>
             </div>
           </div>
         </div>
