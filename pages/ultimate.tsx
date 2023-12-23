@@ -21,7 +21,7 @@ const Ultimate = (props: Props) => {
                     height={200}
                     width={500}
                     alt="rans"
-                    className="ml-auto mr-auto md:mb-3 scale-75 md:scale-100 lg:scale-150  rounded-sm p-1"
+                    className="ml-auto mr-auto md:mb-3 scale-75 md:scale-100  rounded-sm p-1"
                   />
                 </div>
                 <h1>Your Ultimate</h1> <h1>Baking Solution</h1>
