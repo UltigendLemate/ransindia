@@ -14,10 +14,10 @@ export default function WhyUsCard({ props }) {
         />
       </CardHeader>
       <CardBody className="overflow-visible py-2">
-        <h1 className="text-center text-3xl lg:text-4xl font-semibold py-2">
+        <h1 className="text-center text-lg lg:text-4xl font-semibold py-2">
           {props.heading}
         </h1>
-        <p className="text-lg py-2">{props.desc}</p>
+        <p className="md:text-lg md:py-2">{props.desc}</p>
       </CardBody>
     </Card>
   );

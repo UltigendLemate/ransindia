@@ -106,19 +106,19 @@ export default function IndexPage() {
         {/* about us */}
         <div className="w-full py-10 lg:py-16 lg:px-0 md:px-8 px-5" id="about">
           <div className="max-w-screen-lg ml-auto mr-auto">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-left">
+            <h1 className="text-xl md:text-4xl lg:text-5xl font-semibold text-left">
               About RANS
             </h1>
-            <div className="grid md:grid-cols-2 grid-cols-1 md:gap-8 gap-3">
+            <div className="grid md:grid-cols-2 grid-cols-1 md:gap-8 gap-3 md:text-lg">
               <div>
-                <h3 className="pt-5 pb-2 text-lg">
+                <h3 className="pt-5 pb-2 ">
                   RANS Technocrats is a renowned Indian company with 27 years of
                   experience in manufacturing kitchen equipment for the
                   foodservice industry. The company prides itself on its updated
                   technology and advanced products that meet the needs of hotels
                   and restaurants across India.
                 </h3>
-                <h3 className="pb-5 pt-2 text-lg">
+                <h3 className="pb-5 pt-2 ">
                   RANS Technocrats caters to customers throughout India with a
                   dedicated team that provides service and support. The
                   company&apos;s state-of-the-art machinery and commitment to
@@ -131,8 +131,8 @@ export default function IndexPage() {
                   width={800}
                   height={500}
                   alt="NextUI hero Image with delay"
-                  src="/images/about.jpg"
-                  className="rounded-md shadow-lg"
+                  src="/images/kitchen.png"
+                  className="rounded-md "
                 />
               </div>
             </div>
@@ -146,7 +146,7 @@ export default function IndexPage() {
         {/* why rans */}
         <div className="w-full pt-10 md:py-10 lg:py-16 lg:px-0 md:px-8 px-5">
           <div className="max-w-screen-lg ml-auto mr-auto">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-left pb-10 md:pb-16">
+            <h1 className="text-xl md:text-4xl lg:text-5xl font-semibold text-left pb-10 md:pb-16">
               Why RANS?
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -158,7 +158,7 @@ export default function IndexPage() {
         {/* our clients */}
         <div className="w-full  pt-20 pb-20 md:py-10 lg:py-16 lg:px-0 md:px-8 px-5">
           <div className="max-w-screen-lg ml-auto mr-auto ">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-left pb-16 md:pb-10 ">
+            <h1 className="text-xl md:text-4xl lg:text-5xl font-semibold text-left pb-16 md:pb-10 ">
               Our Clients
             </h1>
             <Image
@@ -184,12 +184,13 @@ export default function IndexPage() {
           id="contact"
         >
           <div className="lg:max-w-screen-lg ml-auto mr-auto  ">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-left pb-10">
+            
+            <div className="grid md:grid-cols-2 gap-10 ">
+              <div>
+                <h1 className="text-xl md:text-4xl lg:text-5xl font-semibold text-left pb-10">
               Contact Us
             </h1>
-            <div className="grid md:grid-cols-2 gap-10">
-              <div className="">
-                <ul className="space-y-8">
+            <ul className="space-y-8">
                   <li className="flex space-x-3 items-center">
                     <Image
                       src={"/images/phone.png"}
@@ -197,7 +198,7 @@ export default function IndexPage() {
                       width={25}
                       alt="phone"
                     />
-                    <p className="text-lg md:text-xl">+91 6393698670</p>
+                    <p className=" md:text-xl">+91 9811028292</p>
                   </li>
                   <li className="flex space-x-3 items-center">
                     <Image
@@ -206,7 +207,7 @@ export default function IndexPage() {
                       width={26}
                       alt="phone"
                     />
-                    <p className="text-lg md:text-xl">dummydummy@gamil.com</p>
+                    <p className=" md:text-xl">info@ransindia.com</p>
                   </li>
                   <li className="flex space-x-3 items-center">
                     <Image
@@ -216,33 +217,20 @@ export default function IndexPage() {
                       alt="phone"
                       className="mb-auto"
                     />
-                    <div className="text-lg md:text-xl">
-                      <h6 className="font-bold"> Sales Office: North </h6>
+                    <div className=" md:text-xl">
+                      <h6 className="font-bold"> Corporate Office </h6>
                       <p>
                         201, Samrat Bhawan, Ranjeet Nagar Commercial Complex,
                         (Near Satyam Cinema) New Delhi – 110008
                       </p>
                     </div>
                   </li>
-                  <li className="flex space-x-3 items-center">
-                    <Image
-                      src={"/images/location.png"}
-                      height={25}
-                      width={25}
-                      alt="phone"
-                      className="mb-auto"
-                    />
-                    <div className="text-lg md:text-xl">
-                      <h6 className="font-bold"> Sales Office: West </h6>
-                      <p>
-                        Flat No. 105, 1st Floor Aarpee Centre, Gulf Compound,
-                        11th Raid, MIDC, Near Tunga Paradise, Andheri (E)
-                        Mumbai-400093, Maharastra
-                      </p>
-                    </div>
-                  </li>
+                 
                 </ul>
-              </div>
+            
+            </div>
+                
+         
               <div className="max-w-full flex justify-center overflow-hidden">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28008.34163714369!2d77.23792486878659!3d28.65843996840499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfce26ec085ef%3A0x441e32f4fa5002fb!2sRed%20Fort!5e0!3m2!1sen!2sin!4v1703091414099!5m2!1sen!2sin"

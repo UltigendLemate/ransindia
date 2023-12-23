@@ -26,7 +26,7 @@ const Rans = (props: Props) => {
         {/* hero section  */}
         <div className="h-[50vh] md:h-[100vh]  text-white relative bg-rans-hero bg-center bg-no-repeat bg-cover ">
           <div className="h-full w-full bg-black/50 absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
-            <div className="text-center text-white leading-[35px] md:leading-none lg:text-6xl md:text-5xl text-4xl font-semibold space-y-5">
+            <div className="text-center text-white leading-[35px] md:leading-none lg:text-6xl md:text-5xl text-2xl font-semibold space-y-5">
               <div className="pt-[15vh] md:pt-[30vh]">
                 <div className="flex justify-center">
                   <Image
@@ -97,10 +97,9 @@ const Rans = (props: Props) => {
                 >
                   <div className="flex justify-center">
                     <Image
-                      loading="lazy"
-                      disableSkeleton={true}
+                      isZoomed={true}
                       width={300}
-                      className="aspect-square  object-contai w-full ml-auto mr-auto"
+                      className="aspect-square  object-contain w-full ml-auto mr-auto"
                       src={`/rans/${item.path}`}
                       alt={item.name}
                     />

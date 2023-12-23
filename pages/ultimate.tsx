@@ -13,15 +13,15 @@ const Ultimate = (props: Props) => {
       <section className="">
         <div className="h-[50vh] md:h-[100vh]  text-white relative bg-ultimate-hero bg-center bg-no-repeat bg-cover">
           <div className="h-full w-full bg-black/50 absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
-            <div className="text-center text-white leading-[35px] md:leading-none lg:text-6xl md:text-5xl text-4xl font-semibold space-y-5">
+            <div className="text-center text-white leading-[35px] md:leading-none lg:text-6xl md:text-5xl text-2xl font-semibold space-y-5">
               <div className="pt-[15vh] md:pt-[30vh]">
                 <div className="flex justify-center">
                   <Image
                     src={"/images/ultimate.png"}
-                    height={60}
-                    width={200}
+                    height={200}
+                    width={500}
                     alt="rans"
-                    className="ml-auto mr-auto md:mb-3 scale-75 md:scale-100  rounded-sm p-1"
+                    className="ml-auto mr-auto md:mb-3 scale-75 md:scale-100 lg:scale-150  rounded-sm p-1"
                   />
                 </div>
                 <h1>Your Ultimate</h1> <h1>Baking Solution</h1>

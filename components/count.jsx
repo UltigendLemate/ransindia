@@ -7,12 +7,12 @@ export default function CountCard({ props }) {
       <CountUp
         end={props.count}
         suffix="+"
-        className="text-black text-2xl sm:text-2xl md:text-5xl "
+        className="text-black text-xl sm:text-2xl md:text-5xl "
         duration={2}
         enableScrollSpy={true}
         scrollSpyDelay={10}
       />
-      <h1 className="text-2xl sm:text-2xl font-semibold md:text-4xl">
+      <h1 className="text-xl sm:text-2xl font-semibold md:text-4xl">
         {props.title}
       </h1>
     </div>
