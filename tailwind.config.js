@@ -19,11 +19,15 @@ module.exports = {
       },
       colors: {
         def: "#FAF9F6",
+        redred: "#e22119",
+        dgray: "#2e2d2c",
+        vlgray: "#f6f6f6",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         kanit: ["Kanit", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
     },
   },
