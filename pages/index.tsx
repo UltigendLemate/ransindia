@@ -194,12 +194,12 @@ export default function IndexPage() {
         {/* new and events */}
         <div className="w-full py-10 lg:py-20 lg:px-0 md:px-8 px-5 ">
           <div className="max-w-[1180px] ml-auto mr-auto  ">
-            <div className="grid grid-cols-2 px-20">
-              <div className="pl-10">
+            <div className="grid md:grid-cols-2 px-0 md:px-20">
+              <div className="md:pl-10 pb-5 md:pb-0">
                 <Heading1 title="NEWS AND EVENTS" className="col-span-3" />
               </div>
               <div className="">
-                <div className="border-t-1 border-dgray border-2"></div>
+                <div className="border-t-1 border-dgray border-2 w-[100px]"></div>
                 <Subtext
                   title="
                   Access our news page and learn about all our news. Discover our most recent projects, our new products and the dates of the upcoming fairs and events we will be participating in."
@@ -223,10 +223,6 @@ export default function IndexPage() {
                   spaceBetween: 10,
                 },
                 "@0.75": {
-                  slidesPerView: 2,
-                  spaceBetween: 20,
-                },
-                "@1.00": {
                   slidesPerView: 1.5,
                   spaceBetween: 40,
                 },

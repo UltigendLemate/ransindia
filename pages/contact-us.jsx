@@ -27,7 +27,7 @@ export default function IndexPage() {
               <h6 className="py-1"></h6>
               <Heading1 title="IN SEARCH OF EXCELLENCE" />
             </div>
-            <div className=" space-y-2 md:col-span-7 px-5">
+            <div className=" space-y-2 md:col-span-7 md:px-5">
               <h6 className="border border-dgray mt-5 w-[100px]"></h6>
               <Subtext
                 smallPadding
@@ -55,23 +55,23 @@ export default function IndexPage() {
           </div>
         </div>
 
-        <div className="w-full pt-10 md:py-10 lg:py-16 lg:px-0 md:px-8 px-5 bg-dgray">
+        <div className="w-full mt-12 py-10 md:py-10 lg:py-16 lg:px-0 md:px-8 px-5 bg-dgray">
           <div className="max-w-screen-lg ml-auto mr-auto">
-            <div className="grid grid-cols-12">
+            <div className="grid grid-cols-1 md:grid-cols-12">
               <div className="md:col-span-5">
-                <h4 className="text-white text-4xl font-roboto font-light ml-20">
+                <h4 className="text-white text-4xl font-roboto font-light md:ml-20 pb-8 md:pb-0">
                   RANS INDIA
                 </h4>
               </div>
               <div className="md:col-span-7">
-                <h4 className="text-white">
-                  <h6 className="pb-5">
-                    Santxolopetegi Auzoa, 22. 20560, Oñati (Gipuzkoa).
+                <div className="text-white">
+                  <h6 className="pb-5 md:pb-5">
+                    Santxolopetegi Auzoa, 22. 20560, Oñati.
                   </h6>
                   <h6>E-Mail: info@fagorprofessional.com</h6>
                   <h6>Telephone Switchboard: +34 943 71 80 30</h6>
                   <h6>Fax: +34 943 71 81 81</h6>
-                </h4>
+                </div>
               </div>
             </div>
           </div>

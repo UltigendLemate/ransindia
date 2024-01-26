@@ -98,13 +98,13 @@ export default function IndexPage() {
         <div className="w-full pt-10 md:py-10 lg:py-16 lg:px-0 md:px-8 px-5">
           <div className="max-w-[1180px] ml-auto mr-auto grid md:grid-cols-2 grid-cols-1">
             <div className="max-w-[400px]">
-              <h6 className="font-roboto font-medium text-[17px] pb-5">
+              <h6 className="font-roboto font-medium text-sm md:text-[17px] pb-2 md:pb-5">
                 FAGOR PROFESSIONAL, WHO WE ARE
               </h6>
               <Heading1 title="FROM 1960, UNTIL WE " />
               <h6 className="py-1"></h6>
               <Heading1 title="BECAME A LEADER" />
-              <h6 className="border border-dgray mt-5 w-[100px]"></h6>
+              <h6 className="border border-dgray mt-5 w-[100px] md:mb-0 mb-3"></h6>
             </div>
             <div className="max-w-[500px] space-y-2">
               <Subtext
@@ -119,7 +119,7 @@ export default function IndexPage() {
                 smallPadding
                 title="For this purpose, our extensive catalogue boasts products that are perfect for even the most demanding professionals, bolstered by an array of services that make our distributor's daily lives as efficient as possible."
               />
-              <div className="pt-5">
+              <div className="pt-1 md:pt-5">
                 <More title="Download Corporate Presentation" bold />
               </div>
             </div>
@@ -127,23 +127,21 @@ export default function IndexPage() {
         </div>
 
         {/* why us */}
-        <div className="w-full pt-10 md:py-10 lg:py-16 lg:px-0 md:px-8 px-5">
+        <div className="w-full pt-12 md:py-10 lg:py-16 lg:px-0 md:px-8 px-5">
           <div className="max-w-screen-lg ml-auto mr-auto">
-            <h1 className="text-xl md:text-4xl lg:text-5xl font-semibold text-left pb-10 md:pb-16">
-              Why RANS?
-            </h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <Heading1 title="WHY RANS?" />
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 md:pt-0 pt-5">
               {whyuscomponents}
             </div>
           </div>
         </div>
 
         {/* numbers */}
-        <div className="w-full pt-10 md:py-10 lg:py-16 lg:px-0 md:px-8 px-5">
+        <div className="w-full pt-12 md:py-10 lg:py-16 lg:px-0 md:px-8 px-5">
           <div className="max-w-[1180px] ml-auto mr-auto grid md:grid-cols-2 grid-cols-1">
             <div className="max-w-[450px] ">
-              <h6 className="font-roboto font-medium text-[17px] pb-5">
-                ONNERA GROUP, A LEADING COMPANY
+              <h6 className="font-roboto font-medium text-sm md:text-[17px] md:pb-5 pb-2">
+                ONNER A GROUP, A LEADING COMPANY
               </h6>
               <Heading1 title="WITHIN A LARGE" />
               <h6 className="py-1"></h6>
@@ -157,17 +155,19 @@ export default function IndexPage() {
                   smallPadding
                   title="ONNERA Group has 7 manufacturing plants, 35 business offices and more than 2200 employees all over the world. Currently, it is the leading company for food service, hotel and refrigeration equipment in Spain, the sixth in Europe, and the tenth worldwide."
                 />
-                <div className="pt-5">
+                <div className="pt-1 md:pt-5 ">
                   <More title="Download Corporate Presentation" bold />
                 </div>
               </div>
             </div>
-            <div className="max-w- px-5">
-              <h3 className="md:text-4xl pb-2">RANS GROUP IN NUMBERS</h3>
-              <h6 className="font-roboto font-medium text-[15px] pb-5">
+            <div className="pt-12 md:pt-0 md:px-5">
+              <h3 className="md:text-4xl text-2xl pb-2">
+                RANS GROUP IN NUMBERS
+              </h3>
+              <h6 className="font-roboto font-medium text-[15px] md:pb-5 pb-0">
                 FAGOR PROFESSIONAL, WHO WE ARE
               </h6>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-5 pt-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-5 pt-5 md:pt-10">
                 {stats}
               </div>
             </div>
