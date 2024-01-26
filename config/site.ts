@@ -10,7 +10,7 @@ export const siteConfig = {
     },
     {
       label: "About Us",
-      href: "/#about",
+      href: "/about-us",
     },
     {
       label: "Rans",
@@ -29,8 +29,12 @@ export const siteConfig = {
       href: "/ultimate",
     },
     {
+      label: "Events",
+      href: "/events",
+    },
+    {
       label: "Contact Us",
-      href: "/#contact",
+      href: "/contact-us",
     },
   ],
   navMenuItems: [
